@@ -271,7 +271,7 @@
 						<div class="yashare-auto-init" data-yashareL10n="ru" data-yashareQuickServices="facebook,vkontakte,twitter,gplus" data-yashareTitle="<?php the_title(); ?>" data-yashareDescription="<?php the_excerpt(); ?>" data-yashareImage="<?php echo $large_image_url[0]; ?>" data-yashareTheme="counter" data-yashareLink="<?php the_permalink(); ?>"></div> 
 					</div>
                    
-					<div class="content">
+					<div class="content text_in_blog_standart">
 						<?php the_content(); ?>
 						<div class="clear"></div>
 					</div>
