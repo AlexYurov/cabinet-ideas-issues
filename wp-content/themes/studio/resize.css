@@ -1,0 +1,353 @@
+@media only screen and (min-width : 1224px) {
+
+	.center {
+		width:1200px;
+		padding:0 20px;
+		margin:0 auto;
+	}	
+	
+	#menu li {
+		display:block;
+		float:left;
+		padding:25px 0px;
+		position:relative;
+		margin: 0 10px;
+	}
+	
+	#three li {
+		display:inline-block;
+		width:361px;
+		height:363px;
+		background:url("images/three-li.png") no-repeat 0 0;
+		margin:0 7px;
+		position:relative;
+	}
+	
+	#list-topics { width:1220px; }
+	
+	.live-tile,
+	.list-tile,
+	.copy-tile {
+		height: 281px;
+		width: 293px;
+	}
+	
+	#page-left { width:885px; }
+	#page-right { width:281px; }
+
+	#list-blog .post .post-right { width:730px; }
+	
+	#footer .logo-social { 
+		width:205px;
+		margin:0 141px;
+		padding:30px 0 0 0;
+	}
+	
+	#contact {
+		right:110px;
+	}
+	
+	.wpcf7 textarea { width:1158px; }
+
+	.list-portfolio-category .item,
+	.list-portfolio-category .item a,
+	.list-portfolio-category .item a img,
+	.list-portfolio-category .item a div {
+		height: 281px;
+		width: 293px;
+
+	}
+
+	.list-portfolio-category .item a div h2 {
+		height: 281px;
+		width: 263px;
+	}
+	
+}
+
+/*=================================================================================================================================================*/
+
+@media only screen and (max-width : 1024px) {
+
+	#header { padding:10px 0 0px; }
+
+	#dl-menu { 
+		display:block; 
+		position:absolute;
+		right:15px;
+		top:35px;
+	}
+	
+	#header .social-lang {
+		top:45px;
+		z-index:10011;
+	}
+	
+	#header.sticky .social-lang { 
+		display:block; 
+		top:20px;
+	}
+	
+	#header.sticky #dl-menu { top:9px; }
+
+	.center {
+		width:980px;
+		padding:0 10px;
+		margin:0 auto;
+		/*overflow:hidden;*/
+	}	
+	
+	#three { 
+		position:relative; 
+		height:550px;
+	}
+	
+	#three li:nth-child(3) {
+		margin:0;
+		position:absolute;
+		top:260px;
+		left:324px;
+	}
+	
+	#client-list { 
+		width:880px;
+		margin:0 auto;
+	}
+	
+	#client-list .bx-prev { left:-25px; }
+
+	#client-list .bx-next { right:-25px; }
+	
+	#staff .line .center { width:980px; }
+	
+	#staff .line .item {
+		width:300px;
+		float:left;
+		height:410px;
+		overflow:hidden;
+		position:relative;
+	}
+	
+	#staff .line .item img { 
+		width:300px; 
+		height:auto;
+	}
+
+	#list-topics {
+		width:980px;
+		position:relative;
+		left:5px;
+	}
+	
+	.list-portfolio-category .item,
+	.list-portfolio-category .item a,
+	.list-portfolio-category .item a img,
+	.list-portfolio-category .item a div {
+		height: 241px;
+		width: 239px;
+
+	}
+
+	.list-portfolio-category .item a div h2 {
+		height: 241px;
+		width: 209px;
+	}
+	
+	.single-work .content h2 {
+		width:1000px;
+		left:-50px;
+	}
+
+	#list-reviews {
+		width:900px; 
+		margin:0 auto;
+	}
+	
+	.reviews-button a {
+		padding:15px 0;
+		display:block;
+		margin:0 auto;
+		width:320px;
+	}
+	
+	#page-left { width:670px; }
+	#page-right { width:281px; }
+
+	#list-blog .post .post-right { width:520px; }
+	
+	#menu { display:none; }
+	
+	.wpcf7 input.wpcf7-text { width:455px; }
+	.wpcf7 textarea { width:938px; }
+	
+	#contact {
+		position:absolute;
+		right:40px;
+		top:17px;
+	}
+	
+	#footer .form { width:310px; }
+	
+	#footer .wpcf7 h4 {
+		font-size:16px;
+		line-height:18px;
+	}
+
+	#footer .wpcf7 input.wpcf7-text { width:286px; }
+
+	
+	#footer .logo-social { 
+		margin:0 51px;
+		padding:15px 0 0 0;
+	}
+
+
+}
+
+/*=================================================================================================================================================*/
+
+@media only screen and (max-width : 768px) {
+
+	.center {
+		width:738px;
+		padding:0 5px;
+		margin:0 auto;
+		/*overflow:hidden;*/
+	}	
+	
+	#three { 
+		position:relative; 
+		height:550px;
+		padding:30px 0;
+		text-align:left;
+	}
+	
+	#three li { margin:0 2px; }
+	
+	#three li:nth-child(3) {
+		margin:0;
+		position:absolute;
+		top:215px;
+		left:195px;
+	}
+	
+	#list-principles { width:94%; }
+		
+	#list-principles .item h3 {
+		font-size:18px;
+		line-height:24px;
+		padding:15px 0 0 100px;
+	}
+	
+	#client-list { 
+		width:660px;
+		margin:0 auto;
+	}
+	
+	#client-list .bx-prev { left:-25px; }
+
+	#client-list .bx-next { right:-25px; }
+	
+	
+	
+	
+	
+	
+	#staff .line .center { width:768px; }
+	
+	#staff .line .item {
+		width:230px;
+		float:left;
+		height:318px;
+		overflow:hidden;
+		position:relative;
+	}
+	
+	#staff .line .item img { 
+		width:230px; 
+		height:auto;
+	}
+
+	#list-topics {
+		width:980px;
+		position:relative;
+		left:5px;
+	}
+	
+	.list-portfolio-category .item,
+	.list-portfolio-category .item a,
+	.list-portfolio-category .item a img,
+	.list-portfolio-category .item a div {
+		height: 241px;
+		width: 239px;
+
+	}
+
+	.list-portfolio-category .item a div h2 {
+		height: 241px;
+		width: 209px;
+	}
+	
+	.single-work .content h2 {
+		width:1000px;
+		left:-50px;
+	}
+
+	#list-reviews {
+		width:900px; 
+		margin:0 auto;
+	}
+	
+	.reviews-button a {
+		padding:15px 0;
+		display:block;
+		margin:0 auto;
+		width:320px;
+	}
+	
+	#page-left { width:670px; }
+	#page-right { width:281px; }
+
+	#list-blog .post .post-right { width:520px; }
+	
+	#menu { display:none; }
+	
+	.wpcf7 input.wpcf7-text { width:455px; }
+	.wpcf7 textarea { width:938px; }
+	
+	#contact {
+		position:absolute;
+		right:40px;
+		top:17px;
+	}
+	
+	
+	
+	
+	
+	
+	#footer .center {
+		position:relative;
+		height:440px;
+	}
+	
+	#footer .form { width:310px; }
+	
+	#footer .wpcf7 h4 {
+		font-size:16px;
+		line-height:18px;
+	}
+
+	#footer .wpcf7 input.wpcf7-text { width:286px; }
+	
+	#footer .logo-social { 
+		margin:0 0 0 -122px;
+		padding:0;
+		position:absolute;
+		float:none;
+		top:260px;
+		left:50%;
+	}
+
+
+}
