@@ -242,7 +242,7 @@
 			<div class="title">
 				<h1><?php the_title(); ?></h1>
 			</div>
-            <!-- ########################   month name in post #################################-->
+            <!-- ########################   month name in post ##################################-->
 			<div class="center" id="post-<?php the_ID(); ?>">
 				<?php 
 					wp_reset_query();
@@ -271,7 +271,7 @@
 						<div class="yashare-auto-init" data-yashareL10n="ru" data-yashareQuickServices="facebook,vkontakte,twitter,gplus" data-yashareTitle="<?php the_title(); ?>" data-yashareDescription="<?php the_excerpt(); ?>" data-yashareImage="<?php echo $large_image_url[0]; ?>" data-yashareTheme="counter" data-yashareLink="<?php the_permalink(); ?>"></div> 
 					</div>
                    
-					<div class="content text_in_blog_standart">
+					<div class="content ">
 						<?php the_content(); ?>
 						<div class="clear"></div>
 					</div>
