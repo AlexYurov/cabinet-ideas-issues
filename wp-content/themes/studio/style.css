@@ -2053,20 +2053,22 @@ div.title h2 {
 /*-------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 #select-staff {
-	border:1px solid #743787;
-	width:400px;
+	border:0px solid #743787;
+	
 	margin:0 auto;
 }
 
+
 #select-staff li {
-	display:block;
-	list-style:none;
-	position:relative;
-	padding:20px 20px;
-	background:url("images/select-staff.png") no-repeat 360px center;
+    display: block;
+    float: left;
+    list-style: outside none none;
+    padding-left: 20px;
+    padding-right: 200px;
+    position: relative;
 }
 
-#select-staff li.hover { background:url("images/select-staff-hover.png") no-repeat 360px center; }
+#select-staff li.hover { background:url("") no-repeat 360px center; }
 
 #select-staff li span {
 	font-size:24px;
@@ -2091,6 +2093,8 @@ div.title h2 {
 #select-staff li ul li {
 	padding:0;
 	background:none;
+    float: left;
+    display: block;
 }
 
 #select-staff li ul li a {
@@ -2121,7 +2125,7 @@ div.title h2 {
 #staff { margin:0 0 55px 0; }
 
 #staff .line {
-	border-bottom:4px solid #723785;
+	border-bottom:7px solid #723785;
 	padding:50px 0 0 0;
 }
 
@@ -3768,4 +3772,153 @@ ol li p {
 
 .text_in_blog_standart {
     font-size: 18px;
+}
+
+.text_in_all_content_standart {
+    font-size: 18px;
+}
+
+.first_text_about_us {
+    width: 688px !important;
+}
+
+.second_text_about_us {
+    width: 513px !important;
+}
+
+.title_about_us_1 {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.about_us_text_part_1 {
+    display: block;
+    margin-bottom: -20px;
+}
+
+
+.about_us_text_author {
+    display: block;
+    margin-top: 43px;
+    font-style: italic;
+    float: right;
+}
+
+.about_us_text_author b {
+    color: #82be41;
+}
+
+
+/*#########################################################      icons about us            #####################*/
+.icons_about_us_g {
+    display: block;
+    height: 142px;
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.icons_about_us_g li {
+    width: 142px;
+    height: 142px;
+}
+
+.icons_about_us_g li a {
+    height: 142px;
+    text-indent: -9999px;
+    display: block; 
+    text-decoration: none;
+}
+
+.all_display {
+    display: none !important;
+}
+
+
+
+.otdel-dizajna {
+   background:url("images/about_us_icons/design.png") no-repeat center 0;
+}
+
+.otdel-smm {
+    background:url("images/about_us_icons/smm.png") no-repeat center 0;
+}
+
+.otdel-kopirajtinga {
+    background:url("images/about_us_icons/writers.png") no-repeat center 0;
+
+}
+
+.otdel-programmirovanija {
+   background:url("images/about_us_icons/programs.png") no-repeat center 0; 
+}
+
+
+
+
+.otdel-dizajna:hover {
+   background:url("images/about_us_icons/design_h.png") no-repeat center 0;
+      color: #82be41;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 165px;
+    text-align: center;
+    text-indent: 0;
+}
+
+.otdel-smm:hover {
+    background:url("images/about_us_icons/smm_h.png") no-repeat center 0;
+       color: #82be41;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 165px;
+    text-align: center;
+    text-indent: 0;
+}
+
+.otdel-kopirajtinga:hover {
+    background:url("images/about_us_icons/writers_h.png") no-repeat center 0;
+       color: #82be41;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 165px;
+    text-align: center;
+    text-indent: 0;
+}
+
+.otdel-programmirovanija:hover {
+   background:url("images/about_us_icons/programs_h.png") no-repeat center 0; 
+   color: #82be41;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 165px;
+    text-align: center;
+    text-indent: 0;
+}
+
+.otdel-programmirovanija_display {
+    padding-right: 20px !important;
+}
+
+.text_icons_display_none {
+    display: none;
+}
+
+.otdel-kopirajtinga > p {
+    margin-left: -18px;
+    width: 182px;
+}
+
+.otdel-dizajna > p {
+    margin-left: 5px;
+}
+
+.otdel-programmirovanija > p {
+    margin-left: -38px;
+    width: 233px;
+}
+
+/*############################################           icons about us end            ###############################################*/
+
+.about_us_photo {
+    width: 1280px;
 }

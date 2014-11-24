@@ -1,3 +1,4 @@
+<?php /* Template Name: Портфолио */ ?>
 <?php include 'header.php'; ?>
 
 	<?php 
@@ -20,7 +21,7 @@
 		</div>
 	<?php endwhile; endif; ?>
 
-		<?php if (function_exists('bshepelev_breadcrumbs')) bshepelev_breadcrumbs(); ?>
+	
 	
 	<div class="block" id="content">
 		<div class="title">
@@ -33,7 +34,7 @@
 					setup_postdata($post);
 			?>	
             
-				<div class="content">
+				<div class="content text_in_all_content_standart">
 					<?php the_content(); ?>
                     
 					<div class="clear"></div>

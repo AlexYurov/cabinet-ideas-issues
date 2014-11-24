@@ -40,27 +40,25 @@
 	
 	<div class="block" id="staff">
 		<div id="select-staff">
-			<ul>
-				<li><span>Отдел разработки</span>
-					<ul>
+			
+					<ul class="icons_about_us_g">
 						<?php
-							$terms = get_terms("department","orderby=count");
+							$terms = get_terms("department","orderby=");
 							if (count($terms) > 0) { 
 								foreach ($terms as $term) { 
 						?>
-							<li><a href="#<?php echo $term->slug; ?>" rel="<?php echo $term->slug; ?>"><?php echo $term->name; ?></a></li>
+							<li class="<?php echo $term->slug; ?>_display"><a class="<?php echo $term->slug; ?>" href="#<?php echo $term->slug; ?>" rel="<?php echo $term->slug; ?>"><p><?php echo $term->name; ?></p></a></li>
 						<?php 
 								}
 							}
 						?>
 					</ul>
-				</li>
-			</ul>
+			
 		</div>
 		<div id="list-staff">
 			<?php 
 				global $post; $i = 0; $j = 0;
-				$myposts = query_posts('post_type=staff&showposts=99&department=otdel-razrabotki');
+				$myposts = query_posts('post_type=staff&showposts=99&department=all');
 					foreach($myposts as $post) : 
 					setup_postdata($post);
 					$i++;
@@ -70,7 +68,7 @@
 				<?php 
 					if ($i == 1) { 
 						echo '<div class="line">'; 
-							echo '<div class="center">';
+							echo '<div class="center about_us_photo">';
 					} 
 				?>
 					<div class="item">
@@ -102,7 +100,7 @@
 			?>
 		</div>
 		<div class="center" id="slogan">
-			We strive to create meaningful connections for users through <br />considered strategy and innovation in the digital space. 
+			Не бывает слишком сложных задач, если за дело берется <br>команда «Кабинета Идей»! 
 		</div>
 	</div>
 
